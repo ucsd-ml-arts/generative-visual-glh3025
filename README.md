@@ -28,6 +28,7 @@ python test.py --dataroot same/path/as/above --name SAME_NAME_AS_ABOVE --model p
 
 ## Results
 
+Trained on ~150 Onepiece manga pages. Should be better if had more training data.
 <p align="center"> real_A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; real_B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fake_B </p>
 <p align="center">
   <img src="imgs/0001-011.png_real_A.png" width="250" title="real_A">
@@ -53,6 +54,16 @@ python test.py --dataroot same/path/as/above --name SAME_NAME_AS_ABOVE --model p
   <img src="imgs/0005-011.png_real_A.png" width="250" title="real_A">
   <img src="imgs/0005-011.png_real_B_rgb.png" width="250" alt="real_B">
   <img src="imgs/0005-011.png_fake_B_rgb.png" width="250" alt="fake_B">
+</p>
+<p align="center">
+  <img src="imgs/0006-011.png_real_A.png" width="250" title="real_A">
+  <img src="imgs/0006-011.png_real_B_rgb.png" width="250" alt="real_B">
+  <img src="imgs/0006-011.png_fake_B_rgb.png" width="250" alt="fake_B">
+</p>
+<p align="center">
+  <img src="imgs/0007-011.png_real_A.png" width="250" title="real_A">
+  <img src="imgs/0007-011.png_real_B_rgb.png" width="250" alt="real_B">
+  <img src="imgs/0007-011.png_fake_B_rgb.png" width="250" alt="fake_B">
 </p>
 
 
