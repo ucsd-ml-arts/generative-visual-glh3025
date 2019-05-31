@@ -9,7 +9,7 @@ As a manga/comic reader, I would be more pleasure to read colorized ones than gr
 
 ## Model/Data
 
-- Takes ~10 min to train the model.
+- Takes ~20 min to train the model.
 - Or download from https://drive.google.com/file/d/1BcPpAf7FpQ9hO6LiDeYd086UQ3cybden/view?usp=sharing
 - Training data is included in datasets/onepiece/A/.
 
