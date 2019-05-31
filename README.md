@@ -9,21 +9,53 @@ As a manga/comic reader, I would be more pleasure to read colorized ones than gr
 
 ## Model/Data
 
-- trained models
-- training data (or link to training data)
+- Takes ~10 min to train the model.
+- Training data is included in datasets/onepiece/A/.
 
 ## Code
 
-run thi to simply regenerate the demonstrated results.
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+- [manga_colorization.ipynb](manga_colorization.ipynb): run this to simply regenerate the demonstrated results.  
+
+For various usage:
+- train.py: 
+```
+python train.py --dataroot path/to/datasets --name GIVE_A_NAME --model pix2pix --direction BtoA
+```
+- test.py:
+```
+python test.py --dataroot same/path/as/above --name SAME_NAME_AS_ABOVE --model pix2pix --direction BtoA
+```
 
 ## Results
 
-Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- image files (`.jpg`, `.png` or whatever else is appropriate)
-- move files (uploaded to youtube or vimeo due to github file size limits)
-- ... some other form
+<p align="center"> real_A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; real_B &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fake_B </p>
+<p align="center">
+  <img src="imgs/0001-011.png_real_A.png" width="250" title="real_A">
+  <img src="imgs/0001-011.png_real_B_rgb.png" width="250" alt="real_B">
+  <img src="imgs/0001-011.png_fake_B_rgb.png" width="250" alt="fake_B">
+</p>
+<p align="center">
+  <img src="imgs/0002-012.png_real_A.png" width="250" title="real_A">
+  <img src="imgs/0002-012.png_real_B_rgb.png" width="250" alt="real_B">
+  <img src="imgs/0002-012.png_fake_B_rgb.png" width="250" alt="fake_B">
+</p>
+<p align="center">
+  <img src="imgs/0003-011.png_real_A.png" width="250" title="real_A">
+  <img src="imgs/0003-011.png_real_B_rgb.png" width="250" alt="real_B">
+  <img src="imgs/0003-011.png_fake_B_rgb.png" width="250" alt="fake_B">
+</p>
+<p align="center">
+  <img src="imgs/0004-011.png_real_A.png" width="250" title="real_A">
+  <img src="imgs/0004-011.png_real_B_rgb.png" width="250" alt="real_B">
+  <img src="imgs/0004-011.png_fake_B_rgb.png" width="250" alt="fake_B">
+</p>
+<p align="center">
+  <img src="imgs/0005-011.png_real_A.png" width="250" title="real_A">
+  <img src="imgs/0005-011.png_real_B_rgb.png" width="250" alt="real_B">
+  <img src="imgs/0005-011.png_fake_B_rgb.png" width="250" alt="fake_B">
+</p>
+
+
 
 ## Technical Notes
 
